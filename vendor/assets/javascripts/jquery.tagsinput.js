@@ -101,7 +101,7 @@
                         $('<a>', {
                             href  : '#',
                             title : 'E-Mail löschen',
-                            text  : '&times;'
+                            text  : 'x'
                         }).click(function () {
                             return $('#' + id).removeTag(escape(value));
                         })
